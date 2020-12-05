@@ -9,7 +9,7 @@
 .header{
   display: flex;
   justify-content: space-between;
-  margin-bottom: 127px;
+  margin-bottom: 113px;
 }
 .logo{
   position: relative;
@@ -49,7 +49,7 @@
   transition: opacity 0.5s;
 }
 .menu__item:last-child{
-  margin-right: 0;
+  margin-right: 10px;
 }
 .menu__item:hover{
   opacity: .5;
@@ -152,6 +152,7 @@
   }
 
   .main__subtitle {
+    max-width: 90%;
     margin: 0 0 29px 0;
     padding-right: 40px;
     font: 18px/20px Roboto, arial, helvetica, sans-serif;
