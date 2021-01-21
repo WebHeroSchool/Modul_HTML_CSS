@@ -5,6 +5,7 @@
   <title>Структура сайта</title>
   <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="font.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -13,10 +14,15 @@
       <div class="logo">
         <div class="logo__circle logo__circle_color_dark-blue"></div>
         <div class="logo__circle logo__circle_color_blue"></div>
-      app.creation</div>
+        <span class="logo__none">app.creation</span>
+      </div>
+      <input id="menu__toggle" type="checkbox" />
+      <label class="menu__button" for="menu__toggle">
+        <span></span>
+      </label>
       <nav class="menu">
         <a class="menu__item" href="">start</a>
-        <a class="menu__item menu__item_active" href="">service</a>
+        <a class="menu__item" href="">service</a>
         <a class="menu__item" href="">about</a>
         <a class="menu__item" href="">blog</a>
         <a class="menu__item" href="">contact us</a>
@@ -28,6 +34,11 @@
         <p class="main__subtitle">I help tech startups design better digital products without hiring a full-time designer</p>
         <a class="main__button" href="#">Schedule free consultation</a>
       </section>
+      <div class="bottom">
+        <div class="bottom__circle bottom__circle_left"></div>
+        <div class="bottom__circle bottom__circle_center"></div>
+        <div class="bottom__circle bottom__circle_right"></div>
+      </div>
     </div>
   </body>
   </html>
